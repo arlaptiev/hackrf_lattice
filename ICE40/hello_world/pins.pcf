@@ -1,0 +1,9 @@
+# RGB LED at U4 on many iCE40UP5K-SG48 boards.
+# Verify these against your exact board schematic before use.
+set_io rgb0 39
+set_io rgb1 40
+set_io rgb2 41
+
+# This must be the FPGA pin connected to USB-UART TX from your computer.
+# If this pin is wrong, bytes are never received.
+set_io -pullup yes uart_rx 35

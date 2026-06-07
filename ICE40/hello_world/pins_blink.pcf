@@ -1,0 +1,5 @@
+# RGB LED pins for simple blink sanity test.
+# Verify against your board schematic if needed.
+set_io rgb0 39
+set_io rgb1 40
+set_io rgb2 41
