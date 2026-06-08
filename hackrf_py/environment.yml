@@ -1,0 +1,12 @@
+name: hackrf_py
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pyyaml
+  - pysoundfile
+  - soapysdr
+  - soapysdr-module-hackrf
+  - hackrf
